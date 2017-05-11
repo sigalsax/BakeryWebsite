@@ -83,6 +83,29 @@
 .recipe{
   display: flex;
   flex-direction: row;
+  margin: 30px;
+}
+
+.recipe__imginfo {
+  display: flex;
+}
+
+.recipe__row{
+    width: 800px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 0 auto;
+}
+.recipe__instructions__flex{
+  display: flex;
+  flex-direction: row;
+
+}
+
+.recipe__box{
+   display: flex;
+    flex-direction: row;
 }
 
 .recipe__image{
@@ -96,10 +119,21 @@
 
 .recipe__ingredients{
     padding-left: 30px;
+   /*  width: 20%; */
 }
+.recipe__instructions{
+      padding-left: 30px;
+}
+/* .recipe__feelings{
+  padding-bottom: 50px;
+} */
+.recipe__box >figure{
+  width: 325px;
 
-
-
+}
+figure{
+    text-align: center;
+}
         .intro{
           display: flex;
           align-items: center;
@@ -489,6 +523,13 @@
           font-size: 15px;
           padding-left: 308px;
         }
+        .recipe_image{
+          height: 325px;
+
+        }
+        figure{
+        vertical-align: center;
+        }
         .recipe2{
 
           margin-right: 100px;
@@ -507,9 +548,6 @@
           width: 200px;
           float: left;
           padding: 10px;
-          
-     
-
         }
         .adventures > p{
            padding: 10px;
