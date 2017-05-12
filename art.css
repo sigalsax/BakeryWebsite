@@ -74,20 +74,41 @@
   padding: 30px;
 }
 
+.recipes .recipe {
+  border-bottom: 1px solid gray;
+  padding-top: 30px;
+  display: flex;
+  flex-direction: column;
+}
+.recipes .recipe__top {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.recipes .recipe__top figure figcaption {
+  text-align: center;
+}
+.recipes .recipe__top .recipe__info {
+  margin: 30px;
+}
+.recipes .recipe .recipe__bottom {
+  margin-top: 30px;
+  display: flex;
+  justify-content: space-around;
+}
+.recipes .recipe .recipe__bottom .recipe__instructions {
+  width: 60%;
+}
+.recipes .recipe__feelings {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+
+
 .recipe__title{
   font-family: 'Lobster Two', 'Just Another Hand'  ;
 
-}
-
-
-.recipe{
-  display: flex;
-  flex-direction: row;
-  margin: 30px;
-}
-
-.recipe__imginfo {
-  display: flex;
 }
 
 .recipe__row{
@@ -113,40 +134,29 @@
   height: 325px;
 }
 
-.recipe__info{
-  padding-left: 30px;
-}
-
 .recipe__ingredients{
   padding-left: 30px;
-  /*  width: 20%; */
 }
-.recipe__instructions{
-  padding-left: 30px;
-}
-/* .recipe__feelings{
-  padding-bottom: 50px;
-  } */
-  .recipe__box >figure{
-    width: 325px;
 
-  }
-  figure{
-    text-align: center;
-  }
-  .intro{
-    display: flex;
-    align-items: center;
-    padding-top: 10px;
-  }
-  .images_of_food{
-   width: 800px;
-   margin: 0 auto;
-   display: flex;
-   align-items: center;
-   padding-top: 10px;
- }
- .images_of_food>img{
+.recipe__box >figure{
+  width: 325px;
+}
+figure{
+  text-align: center;
+}
+.intro{
+  display: flex;
+  align-items: center;
+  padding-top: 10px;
+}
+.images_of_food{
+ width: 800px;
+ margin: 0 auto;
+ display: flex;
+ align-items: center;
+ padding-top: 10px;
+}
+.images_of_food>img{
   width: 200px;
   height: 250px;
   padding: 10px;
