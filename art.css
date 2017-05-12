@@ -80,6 +80,11 @@
   display: flex;
   flex-direction: column;
 }
+
+#no-description {
+  flex-direction: row;
+}
+
 .recipes .recipe__top {
   display: flex;
   flex-direction: row;
@@ -102,11 +107,8 @@
   width: 60%;
 }
 .recipes .recipe__feelings {
-  margin-top: 30px;
   margin-bottom: 30px;
 }
-
-
 
 .recipe__title{
   font-family: 'Lobster Two', 'Just Another Hand'  ;
