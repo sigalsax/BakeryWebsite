@@ -89,13 +89,12 @@
   text-align: center;
 }
 .recipes .recipe__top .recipe__info {
-  margin: 30px;
+  margin-left: 30px;
 }
 .recipes .recipe__top .recipe__info .recipe__info__name {
   font-family: 'Lobster Two', 'Just Another Hand';
 }
 .recipes .recipe .recipe__bottom {
-  margin-top: 30px;
   display: flex;
   justify-content: space-around;
 }
