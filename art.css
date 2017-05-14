@@ -75,7 +75,7 @@
 }
 
 .recipes .recipe {
-  border-bottom: 1px solid gray;
+  /* border-bottom: 1px solid gray; */
   padding-top: 30px;
   display: flex;
   flex-direction: column;
@@ -84,7 +84,10 @@
 #no-description {
   flex-direction: row;
 }
-
+.recipe__title{
+  width: 110%;
+  padding-left: 10px;
+}
 .recipes .recipe__top {
   display: flex;
   flex-direction: row;
@@ -104,14 +107,17 @@
   justify-content: space-around;
 }
 .recipes .recipe .recipe__bottom .recipe__instructions {
-  width: 60%;
+  width: 100%;
+}
+.recipe__instructions{
+    padding-left: 30px;
 }
 .recipes .recipe__feelings {
   margin-bottom: 30px;
 }
 
 .recipe__title{
-  font-family: 'Lobster Two', 'Just Another Hand'  ;
+  font-family: 'Lobster Two', 'Just Another Hand' ;
 
 }
 
@@ -140,8 +146,11 @@
 
 .recipe__ingredients{
   padding-left: 30px;
+  width: 80%;
 }
-
+.recipe__ingredients2{
+  width: 100%;
+}
 .recipe__box >figure{
   width: 325px;
 }
@@ -328,7 +337,7 @@ figure{
 
 h3{
   font-family: 'Just Another Hand'!important;
-  font-size: 45px !important;
+  font-size: 35px!important;
 }
 
 .paragraph1{
