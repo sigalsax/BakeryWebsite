@@ -70,7 +70,7 @@
 
 .intro-heading{
   /* color: #b8286f !important; */
-  font-family: 'Fjalla One';
+  font-family: "Oswald";
   margin-left: -40px;
 
 }
@@ -636,7 +636,13 @@ figure{
   display: flex;
   align-items: center;
   margin-bottom: 40px;
-      margin-top: 40px;
+    
+}
+.flex2{
+    display: flex;
+  align-items: center;
+  margin-bottom: 40px;
+  margin-top: 40px;
 }
 .flex_recipe{
   display: flex;
@@ -770,6 +776,7 @@ p {
   .intro-heading{
     margin-left: 10%;
   }
+  
 
 
   .section-subheading{
@@ -810,6 +817,7 @@ p {
   .intro-heading h3{
     font-size: 25px;
     width: 300%;
+    font-family: "oswald";
 
   }
 
