@@ -25,6 +25,8 @@
 .logoart > img {
   /*relative to its parent*/
   margin: 0 auto;
+  width: 400px;
+  margin-bottom: -10px;
 }
 
 .custom-navbar {
@@ -35,8 +37,9 @@
   font-weight: 300 px;
   letter-spacing: 2.1px;
 
-
-
+}
+.social-media{
+  text-align: center;
 }
 
 .custom-navbar > p {
@@ -52,9 +55,9 @@
     float: left;
 
 }
-.custom-navbar{
+/* .custom-navbar{
   margin-top: 50px;
-}
+} */
 .custom-navbar > p > a {
   color: black;
   transition: color .1s ease;
@@ -77,6 +80,13 @@
   margin: 0 auto;
   border-bottom: 1px solid #f0f0f0;
   border-top: 1px solid #f0f0f0;
+  padding: 30px;
+}
+.box2{
+    width: 800px;
+  margin: 0 auto;
+/*   border-bottom: 1px solid #f0f0f0;
+  border-top: 1px solid #f0f0f0; */
   padding: 30px;
 }
 
