@@ -29,31 +29,45 @@
 
 .custom-navbar {
   display: flex;
-  justify-content: center;
-  font-family: 'Just Another Hand';
-  font-size: 30px;
-  font-weight: 300px;
+    justify-content: center;
+    font-family: 'oswald';
+    font-size: 20px;
+  font-weight: 300 px;
   letter-spacing: 2.1px;
+
+
+
 }
 
 .custom-navbar > p {
   margin: 15px;
-  color: gray;
-}
+  color: #3d3d3d;
 
+}
+.omg{
+
+    width: 500px;
+    height: 250px;
+    position: absolute;
+    float: left;
+
+}
+.custom-navbar{
+  margin-top: 50px;
+}
 .custom-navbar > p > a {
   color: black;
   transition: color .1s ease;
 }
 
 .custom-navbar > p > a:hover {
-  text-decoration: none;
-  color: gray;
+ /*  text-decoration: none; */
+ color: #474747 ; 
 }
 
 .intro-heading{
-  color: #b8286f !important;
-  font-family: 'Just Another Hand' !important;
+  /* color: #b8286f !important; */
+  font-family: 'Fjalla One';
   margin-left: -40px;
 
 }
@@ -120,7 +134,9 @@
   font-family: 'Lobster Two', 'Just Another Hand' ;
 
 }
-
+.recipe__feelings{
+   margin-top: -30px;
+}
 .recipe__row{
   width: 800px;
   display: flex;
@@ -153,6 +169,9 @@
 }
 .recipe__box >figure{
   width: 325px;
+}
+.recipe{
+  margin-bottom: 10px;
 }
 figure{
   text-align: center;
@@ -192,13 +211,25 @@ figure{
   float: right;
 }
 .country{
-  padding: 35px;
-  padding-top:0
+/*   padding: 35px; */
+  padding-top:0px;
+  padding-bottom: 68px;
 }
 .button{
-
+  background-color: #e7e7e7; 
+  color: black;
+  padding: 10px 20px;
+  -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
   float: right;
   margin-right: 15px;
+  /* border-radius: 15%; */
+
+}
+.button:hover {
+    background-color: #a7a9aa; 
+    color: white;
+     text-decoration: none;
 }
 .intro-subheading{
   color: #b8286f !important;
@@ -336,8 +367,8 @@ figure{
 }
 
 h3{
-  font-family: 'Just Another Hand'!important;
-  font-size: 35px!important;
+  /* font-family: 'Oswald'!important; */
+  font-size: 25px!important;
 }
 
 .paragraph1{
@@ -384,7 +415,8 @@ h3{
  height: 96px;
  z-index: 3;
  position: relative;
- margin-top: -96px
+ margin-top: -96px;
+ font-size: 35px;
 
 }
 .hover_image{
@@ -429,8 +461,8 @@ h3{
 
 .section-heading {
   font-size: 40px;
-  text-align: center;
-  font-family: 'Pompiere', cursive;
+  /* text-align: center; */
+  font-family:'Oswald';
   margin-top: 70px;
 }
 .section-heading p{
@@ -581,6 +613,9 @@ figure{
   width: 200px;
   float: left;
   padding: 10px;
+}
+.adventures__text{
+  font-family: 'Oswald';
 }
 .adventures > p{
  padding: 10px;
@@ -758,8 +793,9 @@ p {
   }
   */
   .intro-heading h3{
-    font-size: 40px  !important;
+    font-size: 25px;
     width: 300%;
+
   }
 
   .numbers{
