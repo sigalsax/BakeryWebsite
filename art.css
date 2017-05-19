@@ -636,11 +636,16 @@ figure{
   display: flex;
   align-items: center;
   margin-bottom: 40px;
+      margin-top: 40px;
 }
 .flex_recipe{
   display: flex;
   align-items: center;
   margin-bottom: 40px;
+}
+.contact{
+   width: 800px;
+  margin: 0 auto;
 }
 
 /*
