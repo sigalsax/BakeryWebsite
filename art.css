@@ -768,8 +768,36 @@ p {
   margin:0 auto;
 }
 
-@media only screen and (max-width: 40em) {
-  body{
+@media only screen and (min-width: 775px) {
+  .author-box-image{
+    display: none;
+    margin-left: 0px;
+  }
+  .explanation{
+    max-width: 610px;
+    margin:  0 auto;
+  }
+  .box{
+    max-width: 650px;
+  }
+  .country{
+    max-width: 690px;
+  }
+    /* HELP */
+  .adventures p{
+    font-size: 12px;
+  }
+  .intro-heading{
+    margin-left: 0px;
+  }
+  /* HELP */
+  .explanation p{
+    max-width: 680px;
+  }
+}
+ 
+
+/*   body{
     width: 40%;
   }
 
@@ -940,4 +968,4 @@ p {
     height:75px;
     width:70px;
   }
-}
+} */
