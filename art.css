@@ -1,3 +1,4 @@
+
 .text-muted{
   font-size: 12px;
   max-width: 295px;
@@ -969,3 +970,756 @@ p {
     width:70px;
   }
 } */
+=======
+.text-muted {
+  font-size: 12px;
+  max-width: 295px;
+  margin: 0 auto;
+  line-height: 20px;
+}
+
+/*full page width*/
+
+.logoart {
+  width: 100vw;
+}
+
+/*centering image*/
+
+.logoart > img {
+  /*relative to its parent*/
+  margin: 0 auto;
+  width: 400px;
+  margin-bottom: -10px;
+}
+
+.custom-navbar {
+  display: flex;
+  justify-content: center;
+  font-family: 'oswald';
+  font-size: 20px;
+  font-weight: 300 px;
+  letter-spacing: 2.1px;
+}
+
+.social-media {
+  text-align: center;
+}
+
+.custom-navbar > p {
+  margin: 15px;
+  color: #3d3d3d;
+}
+
+/* .custom-navbar{
+  margin-top: 50px;
+} */
+
+.custom-navbar > p > a {
+  color: black;
+  transition: color .1s ease;
+}
+
+.custom-navbar > p > a:hover {
+  /*  text-decoration: none; */
+  color: #474747;
+}
+
+.intro-heading {
+  /* color: #b8286f !important; */
+  font-family: "Oswald";
+  margin-left: -40px;
+}
+
+.box {
+  width: 800px;
+  margin: 0 auto;
+  border-bottom: 1px solid #f0f0f0;
+  border-top: 1px solid #f0f0f0;
+  padding: 30px;
+}
+
+.box2 {
+  width: 800px;
+  margin: 0 auto;
+  /*   border-bottom: 1px solid #f0f0f0;
+  border-top: 1px solid #f0f0f0; */
+  padding: 30px;
+}
+
+.recipes {
+  width: 800px;
+  margin: 0 auto;
+  border-bottom: 1px solid #f0f0f0;
+  border-top: 1px solid #f0f0f0;
+  padding: 30px;
+}
+
+.recipes .recipe {
+  /* border-bottom: 1px solid gray; */
+  padding-top: 30px;
+  display: flex;
+  flex-direction: column;
+}
+
+.recipe__title {
+  width: 110%;
+  padding-left: 10px;
+}
+
+.recipes .recipe__top {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.recipes .recipe__top .recipe__info {
+  margin-left: 30px;
+}
+
+.recipes .recipe__top .recipe__info .recipe__info__name {
+  font-family: 'Lobster Two', 'Just Another Hand';
+}
+
+.recipes .recipe .recipe__bottom {
+  display: flex;
+  justify-content: space-around;
+}
+
+.recipe__title {
+  font-family: 'Lobster Two', 'Just Another Hand';
+}
+
+.recipe__row {
+  width: 800px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin: 0 auto;
+}
+
+.recipe__box {
+  display: flex;
+  flex-direction: row;
+}
+
+.recipe__image {
+  width: 325px;
+  height: 325px;
+}
+
+.recipe__ingredients {
+  padding-left: 30px;
+  width: 80%;
+}
+
+.recipe__ingredients2 {
+  width: 100%;
+}
+
+.recipe {
+  margin-bottom: 10px;
+}
+
+.intro {
+  display: flex;
+  align-items: center;
+  padding-top: 10px;
+}
+
+.images_of_food {
+  width: 800px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  padding-top: 10px;
+}
+
+.images_of_food>img {
+  width: 200px;
+  height: 250px;
+  padding: 10px;
+}
+
+
+
+
+
+.tour {
+  width: 800px;
+  margin: 0 auto;
+}
+
+#compass {
+  width: 150px;
+  float: right;
+}
+
+.country {
+  /*   padding: 35px; */
+  padding-top: 0px;
+  padding-bottom: 68px;
+}
+
+.button {
+  background-color: #e7e7e7;
+  color: black;
+  padding: 10px 20px;
+  -webkit-transition-duration: 0.4s;
+  /* Safari */
+  transition-duration: 0.4s;
+  float: right;
+  margin-right: 15px;
+  /* border-radius: 15%; */
+}
+
+.button:hover {
+  background-color: #a7a9aa;
+  color: white;
+  text-decoration: none;
+}
+
+.recipe-heading {
+  color: #b8286f !important;
+}
+
+.begin {
+  margin-left: -30px;
+}
+
+.col-xs-8 {
+  padding: 20px;
+}
+
+.travels {
+  margin-left: 40px;
+  /*
+  .descriptions{
+    margin-bottom: 10px;
+    margin-top: 400px;
+  }
+  */
+}
+
+.box #iceland1 {
+  width: 270px;
+  float: left;
+  padding: 16px;
+}
+
+.numbers {
+  margin-left: 50px;
+}
+
+.row h5 {
+  text-align: center;
+  color: black !important;
+}
+
+.author-box {
+  width: 800px;
+  margin: 0 auto;
+  padding: 20px 0;
+  border-bottom: 1px solid #f0f0f0;
+  border-top: 1px solid #f0f0f0;
+  padding: 30px;
+}
+
+.author-box-image {
+  width: 150px;
+  margin: 10px;
+}
+
+.author-box .info {
+  overflow: hidden;
+  margin-bottom: 70px !important;
+}
+
+.author-box .info p {
+  color: #666;
+  font-weight: 300;
+  line-height: 24px;
+}
+
+.author-box .info h6 {
+  font-size: 14px;
+  color: #666;
+  margin: 0;
+  margin-top: 10px;
+  padding: 0;
+  font-style: italic;
+}
+
+.author-box .info h6 a {
+  color: #b09f23;
+}
+
+/*for the first row of images*/
+
+h3 {
+  /* font-family: 'Oswald'!important; */
+  font-size: 25px!important;
+}
+
+.container {
+  display: center;
+  top: 50%;
+  left: 50%;
+  margin-top: -50px;
+  margin-left: -100px;
+}
+
+/*text over image*/
+
+.image {
+  position: relative;
+  width: 100%;
+  /* for IE 6 */
+}
+
+.title_food {
+  color: white !important;
+  font: bold 24px/45px;
+  font-family: 'Lobster', 'Just Another Hand'  !important;
+  letter-spacing: 3px;
+  background: rgba(0, 0, 0, 0.5);
+  padding: 15px;
+  width: 100%;
+  height: 96px;
+  z-index: 3;
+  position: relative;
+  margin-top: -96px;
+  font-size: 35px;
+}
+
+.hover_image {
+  /*     width: 540px; */
+  overflow: hidden;
+  height: 100%;
+}
+
+.hover_image img {
+  max-width: 100%;
+  transition: all 0.4s;
+}
+
+.hover_image:hover img {
+  transform: scale(1.1);
+  filter: brightness(0.5);
+  cursor: pointer;
+}
+
+.hover_image:hover a {
+  border: 1px solid white;
+  box-shadow: 0 0 5px #fff;
+}
+
+.info {
+  text-transform: uppercase;
+  width: 130px;
+  padding: 20px;
+  position: absolute;
+  margin: 40% 30%;
+  color: white;
+  box-shadow: 0 0 5px #fff;
+  border: 2px solid white;
+  top: 0;
+  left: 0;
+}
+
+.info:hover {
+  text-decoration: none;
+  color: white;
+}
+
+.section-heading {
+  font-size: 40px;
+  /* text-align: center; */
+  font-family: 'Oswald';
+  margin-top: 70px;
+}
+
+.section-heading p {
+  font-size: 4px;
+}
+
+.section-heading3 {
+  font-size: 40px;
+  margin-top: -30px;
+  margin-bottom: -60px;
+  font-family: 'Pompiere', cursive;
+}
+
+.section-heading4 {
+  font-family: 'Pompiere', cursive !important;
+  margin-top: 50px;
+  margin-bottom: 0px;
+  font-size: 20px;
+}
+
+.section-heading5 {
+  font-size: 40px;
+  margin-top: 40px;
+  margin-bottom: -80px;
+  text-align: center;
+  font-family: 'Pompiere', cursive;
+}
+
+hr {
+  border-color: #f05f40 !important;
+  border-width: 3px !important;
+  max-width: 100px;
+  margin-top: 10px !important;
+}
+
+hr {
+  height: 0;
+  -webkit-box-sizing: content-box;
+  -moz-box-sizing: content-box;
+  box-sizing: content-box;
+}
+
+.compass1 {
+  margin-top: 50px;
+  margin-right: 30px;
+}
+
+.compass1 img {
+  height: 200px;
+  width: 160px;
+}
+
+.compass2 {
+  margin-top: 50px;
+  margin-right: 30px;
+}
+
+.compass2 img {
+  height: 200px;
+  width: 160px;
+}
+
+.footer-container {
+  text-align: center;
+}
+
+#footer {
+  margin-bottom: 50px;
+  font-size: 11px;
+  line-height: normal;
+  color: #999;
+  text-align: center;
+}
+
+.content-heading {
+  float: right;
+  margin-right: 550px;
+}
+
+.span4 p {
+  float: right;
+  margin-top: -100px;
+  margin-left: 220px;
+}
+
+/*
+.recipes{
+  padding-left: 308px;
+}
+*/
+
+.recipe >p {
+  font-size: 15px;
+  padding-left: 308px;
+}
+
+.recipe_image {
+  height: 325px;
+}
+
+.recipe2 {
+  margin-right: 100px;
+  font-family: 'Lobster Two', 'Just Another Hand';
+}
+
+.media {
+  margin-left: 40px;
+}
+
+/* 800 max width is a good size forthe eyes */
+
+/* auto same margin on left and right */
+
+.recent_adventures {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.recent_image {
+  width: 200px;
+  float: left;
+  padding: 10px;
+}
+
+.adventures__text {
+  font-family: 'Oswald';
+}
+
+.adventures > p {
+  padding: 10px;
+}
+
+.flex {
+  display: flex;
+  align-items: center;
+  margin-bottom: 40px;
+}
+
+.flex2 {
+  display: flex;
+  align-items: center;
+  margin-bottom: 40px;
+  margin-top: 40px;
+}
+
+.flex_recipe {
+  display: flex;
+  align-items: center;
+  margin-bottom: 40px;
+}
+
+.contact {
+  width: 800px;
+  margin: 0 auto;
+}
+
+/*
+.recent_adventures{
+  margin-left: 350px;
+  margin-right:  200px;
+}
+
+.recent_adventures img{
+  width: 200px;
+  height: 200px;
+  margin: 0 auto;
+}
+
+.annoying{
+  margin-left: 30%;
+}
+*/
+
+.recent_adventures img {
+  margin: 0 auto;
+}
+
+.challah-feel {
+  margin-top: -20px;
+  margin-left: 30px;
+}
+
+.recipe3 {
+  margin-right: 100px;
+  font-family: 'Lobster Two', 'Just Another Hand';
+}
+
+.recipe5 {
+  margin-right: 100px;
+  margin-top: 40px;
+  font-family: 'Lobster Two', 'Just Another Hand';
+}
+
+.recipe6 {
+  margin-right: 100px;
+  margin-top: 40px;
+  font-family: 'Lobster Two', 'Just Another Hand';
+}
+
+.new-line {
+  margin-top: -20px;
+}
+
+.recipe4 {
+  font-family: 'Lobster Two', 'Just Another Hand';
+  margin-bottom: -40px;
+  margin-top: 70px;
+}
+
+.footer {
+  max-width: 800px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.footer > img {
+  float: left;
+  max-width: 800px;
+  text-align: center;
+}
+
+body {
+  font-family: "Roboto Slab","Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+body {
+  font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-size: 14px;
+  line-height: 1.42857143;
+  color: #333;
+}
+
+.love {
+  font-family: 'Just Another Hand' !important;
+}
+
+.explanation {
+  color: #666;
+  font-weight: 300;
+  line-height: 24px;
+}
+
+p {
+  max-width: 800px;
+  /*0, for top and bottom, and auto indent left and right side*/
+  margin: 0 auto;
+}
+
+@media only screen and (max-width: 40em) {
+  body {
+    width: 40%;
+  }
+
+  .intro-heading {
+    margin-left: 10%;
+  }
+
+  .compass1 {
+    width: 100% !important;
+  }
+
+  .section-heading {
+    font-size: 30px;
+    margin-left: 100px;
+  }
+
+  .primary {
+    width: 5em;
+    margin-left: 100px;
+  }
+
+  .compass1 img {
+    display: none;
+  }
+
+  .compass2 img {
+    display: none;
+  }
+
+  /*
+  .compass1 {
+    width: 100% !important;
+  }
+  */
+
+  .intro-heading h3 {
+    font-size: 25px;
+    width: 300%;
+    font-family: "oswald";
+  }
+
+  .numbers {
+    margin-left: 10px;
+    width: 300%;
+  }
+
+  .hovereffect {
+    font-size: 10px;
+    margin-top: -50px;
+  }
+
+  .descriptions {
+    width: 590% !important;
+    margin-top: 10px;
+    margin-bottom: 50px;
+    margin-left: -60px;
+    width: 160%;
+  }
+
+  .col-md-4 {
+    margin-left: 60px;
+    margin-top: -10px;
+  }
+
+  .image {
+    display: none;
+  }
+
+  .author-box {
+    /*margin-right: 100px;*/
+    margin-left: 5px;
+  }
+
+  .info {
+    width: 400px;
+  }
+
+  .logo img {
+    margin-left: -350px;
+    margin-top: 70px;
+    margin-bottom: -70px;
+  }
+
+  .tour {
+    margin-left: 10%;
+  }
+
+  .section-heading5 h1 {
+    margin-left: 30px;
+    width: 200%;
+    font-size: 25px !important;
+  }
+
+  .section-heading4 {
+    font-size: 25px !important;
+    margin-bottom: 10px;
+  }
+
+  .section-heading3 h1 {
+    width: 200%;
+    margin-left: 10px;
+    font-size: 25px !important;
+  }
+
+  #footer-container {
+    margin-top: 20px;
+    margin-left: -115px;
+    width: 300px;
+  }
+
+  .footer2 {
+    width: 350px !important;
+  }
+
+  .explanation2 {
+    width: 400%;
+  }
+
+  .love {
+    margin-left: 10px;
+  }
+
+  .love h6 {
+    font-size: 20px;
+  }
+
+  .begin {
+    margin-left: 5px;
+    width: 100%;
+  }
+
+  .logo img {
+    height: 75px;
+    width: 70px;
+  }
+}
