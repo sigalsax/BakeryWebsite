@@ -1,4 +1,7 @@
+<<<<<<< HEAD
 
+=======
+>>>>>>> 24819dca074587bf62c77e5c5e3e178e2f410020
 .text-muted{
   font-size: 12px;
   max-width: 295px;
@@ -66,7 +69,7 @@
 
 .custom-navbar > p > a:hover {
  /*  text-decoration: none; */
- color: #474747 ; 
+ color: #474747 ;
 }
 
 .intro-heading{
@@ -227,7 +230,7 @@ figure{
   padding-bottom: 68px;
 }
 .button{
-  background-color: #e7e7e7; 
+  background-color: #e7e7e7;
   color: black;
   padding: 10px 20px;
   -webkit-transition-duration: 0.4s; /* Safari */
@@ -238,7 +241,7 @@ figure{
 
 }
 .button:hover {
-    background-color: #a7a9aa; 
+    background-color: #a7a9aa;
     color: white;
      text-decoration: none;
 }
@@ -434,52 +437,31 @@ h3{
  position: relative;
  margin-top: -96px;
  font-size: 35px;
-
-}
-#travel_Iceland{
-      height: 290px;
-}
-#travel_Rome{
-  height: 289px;
-}
-.hover_image{
-  /*     width: 540px; */
-  overflow: hidden;
-  height: 100%;
-}
-.hover_image img{
-  max-width: 100%;
-  transition: all 0.4s;
-}
-.hover_image:hover img{
-  transform: scale(1.1);
-  filter: brightness(0.5);
-  cursor: pointer;
-
-}
-.hover_image:hover a{
-  border: 1px solid white;
-  box-shadow: 0 0 5px #fff;
-
 }
 
-.info{
-  text-transform: uppercase;
-  width: 290px;
-  padding: 20px;
-  position: absolute;
-  margin:  40% 13%;
-  color: white;
-  box-shadow: 0 0 5px #fff;
-  border: 2px solid white;
-  top: 0;
-  left: 0;
+
+#adventures {
+  margin-left: 30px;
 }
 
-.info:hover{
-  text-decoration: none;
-  color: white;
+#travel {
+  display: flex;
+  flex-direction: row;
+  max-width: 70%;
+  margin-left: 30px;
+}
 
+.hover_image {
+  display: block;
+}
+
+.hover_image > img {
+  width: 400px;
+  height: 250px;
+}
+
+.hover_image > a {
+  display: block;
 }
 
 .section-heading {
@@ -652,7 +634,7 @@ figure{
   display: flex;
   align-items: center;
   margin-bottom: 40px;
-    
+
 }
 .flex2{
   display: flex;
@@ -792,7 +774,7 @@ p {
   .intro-heading{
     margin-left: 10%;
   }
-  
+
 
 
   .section-subheading{
