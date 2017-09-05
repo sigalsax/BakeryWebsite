@@ -305,22 +305,19 @@ h3 {
 }
 
 .hover_image {
-
   display: flex;
   justify-content: center;
   align-items: center;
   position: relative;
-
 }
 
 .hover_image > img {
   width: 400px;
   height: 250px;
-
-
 }
 
 .hover_image > a {
+  transition: all 0.5s;
   position: absolute;
   max-width: 50%;
   font-family: 'Oswald';
@@ -336,9 +333,7 @@ h3 {
   text-align: center;
 }
 
-.hover_image:hover a {
-  transition: all 0.5s;
-  transition: ease-out 1s;
+.hover_image a:hover {
   border: 1px solid white;
   box-shadow: 0 0 5px #fff;
   background: rgba(255,255,255,0.8);
@@ -355,6 +350,12 @@ h3 {
 .hover_image_food > img {
   width: 400px;
   height: 250px;
+
+
+}
+.hover_image_food:hover >img{
+
+
 }
 
 .hover_image_food > a {
