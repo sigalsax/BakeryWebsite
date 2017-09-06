@@ -104,14 +104,6 @@
   font-family: 'Lobster Two', 'Just Another Hand';
 }
 
-.recipe__row {
-  width: 800px;
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  margin: 0 auto;
-}
-
 .recipe__box {
   display: flex;
   flex-direction: row;
@@ -155,10 +147,6 @@
   padding: 10px;
 }
 
-
-
-
-
 .country {
   /*   padding: 35px; */
   padding-top: 0px;
@@ -169,14 +157,12 @@
   color: #b8286f !important;
 }
 
-#iceland, #rome{
+#iceland,#rome {
   display: flex;
   flex-direction: column;
   align-items: center;
   padding: 0 10px;
 }
-
-
 
 .box #iceland1 {
   width: 270px;
@@ -186,20 +172,6 @@
 
 .numbers {
   margin-left: 50px;
-}
-
-.row h5 {
-  text-align: center;
-  color: black !important;
-}
-
-.row_travel {
-  margin-right: -135px;
-  margin-left: -25px;
-}
-
-.row {
-  display: flex;
 }
 
 .author-box {
@@ -254,6 +226,8 @@ h3 {
 .container {
   display: flex;
   flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
 }
 
 /*text over image*/
@@ -290,7 +264,9 @@ h3 {
   width: 70%;
 }
 
-.descriptions {margin-top: 5px;}
+.descriptions {
+  margin-top: 5px;
+}
 
 .hover_image {
   display: flex;
@@ -299,7 +275,9 @@ h3 {
   position: relative;
 }
 
-.hover_image > img {width: 100%;}
+.hover_image > img {
+  width: 100%;
+}
 
 .hover_image > a {
   transition: all 0.5s;
@@ -333,19 +311,16 @@ h3 {
   position: relative;
   justify-content: center;
   align-items: center;
-  width: 32%;
+  width: 30%;
+  margin: 10px;
 }
 
 .hover_image_food > img {
   width: 400px;
   height: 250px;
-
-
 }
-.hover_image_food:hover >img{
 
 
-}
 
 .hover_image_food > a {
   display: flex;
@@ -385,7 +360,9 @@ h3 {
   height: 290px;
 }
 
-.hover_image_food >p {width: 100%;}
+.hover_image_food >p {
+  width: 90%;
+}
 
 .section-heading {
   font-size: 40px;
