@@ -169,19 +169,11 @@
   color: #b8286f !important;
 }
 
-.begin {
-  margin-left: -30px;
-}
-
-/* .col-xs-8{
-  padding: 20px;
-}
- */
 #iceland, #rome{
   display: flex;
   flex-direction: column;
-  align-items: flex-start;
-  margin: 0 20px;
+  align-items: center;
+  padding: 0 10px;
 }
 
 
@@ -298,11 +290,10 @@ h3 {
 #travel {
   display: flex;
   flex-direction: row;
-  max-width: 70%;
-  margin-left: 20px;
-  margin-top: 20px;
-
+  width: 70%;
 }
+
+.descriptions {margin-top: 5px;}
 
 .hover_image {
   display: flex;
@@ -311,10 +302,7 @@ h3 {
   position: relative;
 }
 
-.hover_image > img {
-  width: 400px;
-  height: 250px;
-}
+.hover_image > img {width: 100%;}
 
 .hover_image > a {
   transition: all 0.5s;
