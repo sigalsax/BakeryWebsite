@@ -489,6 +489,7 @@ hr {
 .flex {
     clear: left;
     padding: 30px;
+    height: 210px;
 }
 
 .recent_image {
