@@ -26,7 +26,7 @@
 
 .social-media {
   text-align: center;
-  
+
 }
 
 .social-media>a{
@@ -292,7 +292,7 @@ h3 {
 .hover_image > img {
   width: 100%;
   height: 314px;
-  
+
 }
 
 .hover_image > a {
@@ -355,22 +355,6 @@ h3 {
   padding: 2%;
   text-decoration: none;
   color: #55585a;
-}
-.recent_image{
-  
-}
-.location{
-  letter-spacing: 3px;
-    width: 100%;
-    left: -190px;
-    /* right: 600px; */
-    /* text-align: right; */
-    /* height: 96px; */
-    z-index: 3;
-    position: relative;
-    top: 90px;
-    color: white;
-    margin: 0 auto;
 }
 
 .info {
@@ -495,19 +479,33 @@ hr {
   margin-left: 40px;
 }
 
-/* 800 max width is a good size forthe eyes */
-
-/* auto same margin on left and right */
-
 .recent_adventures {
   max-width: 800px;
   margin: 0 auto;
 }
 
+
+
+.flex {
+    clear: left;
+    padding: 30px;
+}
+
 .recent_image {
   width: 200px;
-  float: left;
-  padding: 10px;
+  height: 200px;
+}
+
+.location{
+  letter-spacing: 3px;
+  position: relative;
+  color: #ffffff;
+  top: 140px;
+  left: -180px;
+}
+
+.adventures {
+    margin-left: 220px;
 }
 
 .adventures__text {
@@ -516,18 +514,20 @@ hr {
 }
 
 .adventures > p {
-  padding: 10px;
+  /* padding: 10px; */
 }
+
+
+
+
+
+
+
 
 .flex_travel {
   display: flex;
 }
 
-.flex {
-  display: flex;
-  align-items: center;
-  margin-bottom: 40px;
-}
 
 .flex2 {
   display: flex;
@@ -547,25 +547,9 @@ hr {
   margin: 0 auto;
 }
 
-/*
-.recent_adventures{
-  margin-left: 350px;
-  margin-right:  200px;
-}
-
-.recent_adventures img{
-  width: 200px;
-  height: 200px;
-  margin: 0 auto;
-}
-
-.annoying{
-  margin-left: 30%;
-}
-*/
-
 .recent_adventures img {
   margin: 0 auto;
+  float: left;
 }
 
 .challah-feel {
