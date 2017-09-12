@@ -11,6 +11,8 @@
   margin: 0 auto;
   width: 400px;
   margin-bottom: -10px;
+
+  display: inherit;
 }
 
 .custom-navbar {
@@ -24,6 +26,12 @@
 
 .social-media {
   text-align: center;
+  
+}
+
+.social-media>a{
+  text-decoration: none;
+  color: rgb(51, 122, 183);
 }
 
 .custom-navbar > p {
@@ -38,6 +46,7 @@
 .custom-navbar > p > a {
   color: black;
   transition: color .1s ease;
+  text-decoration: none;
 }
 
 .custom-navbar > p > a:hover {
@@ -130,7 +139,8 @@
 .intro {
   display: flex;
   align-items: center;
-  padding-top: 10px;
+  padding-top: 40px;
+  padding-bottom: 40px;
 }
 
 .images_of_food {
@@ -254,16 +264,20 @@ h3 {
 }
 
 #adventures {
-  margin-left: 30px;
+  margin-left: 40px;
   font-family: 'Oswald';
+  font-size: 30px;
 }
 
 #travel {
   display: flex;
   flex-direction: row;
-  width: 70%;
+  width: 90%;
+  margin: auto;
 }
+.about-me{
 
+}
 .descriptions {
   margin-top: 5px;
 }
@@ -277,7 +291,8 @@ h3 {
 
 .hover_image > img {
   width: 100%;
-  height: 264px;
+  height: 314px;
+  
 }
 
 .hover_image > a {
@@ -322,7 +337,6 @@ h3 {
 }
 
 
-
 .hover_image_food > a {
   display: flex;
   justify-content: center;
@@ -341,6 +355,22 @@ h3 {
   padding: 2%;
   text-decoration: none;
   color: #55585a;
+}
+.recent_image{
+  
+}
+.location{
+  letter-spacing: 3px;
+    width: 100%;
+    left: -190px;
+    /* right: 600px; */
+    /* text-align: right; */
+    /* height: 96px; */
+    z-index: 3;
+    position: relative;
+    top: 90px;
+    color: white;
+    margin: 0 auto;
 }
 
 .info {
@@ -366,10 +396,16 @@ h3 {
 }
 
 .section-heading {
-  font-size: 40px;
+  font-size: 30px;
   font-family: 'Oswald';
   width: 100%;
   margin: 0;
+  margin-left: 100px;
+}
+.section-heading-center{
+   font-family: 'Oswald';
+   font-size: 30px;
+
 }
 
 .section-heading p {
@@ -476,6 +512,7 @@ hr {
 
 .adventures__text {
   font-family: 'Oswald';
+  margin: 0 auto;
 }
 
 .adventures > p {
