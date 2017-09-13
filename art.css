@@ -11,7 +11,6 @@
   margin: 0 auto;
   width: 400px;
   margin-bottom: -10px;
-
   display: inherit;
 }
 
@@ -26,10 +25,9 @@
 
 .social-media {
   text-align: center;
-
 }
 
-.social-media>a{
+.social-media>a {
   text-decoration: none;
   color: rgb(51, 122, 183);
 }
@@ -121,15 +119,6 @@
 .recipe__image {
   width: 325px;
   height: 325px;
-}
-
-.recipe__ingredients {
-  padding-left: 30px;
-  width: 80%;
-}
-
-.recipe__ingredients2 {
-  width: 100%;
 }
 
 .recipe {
@@ -275,9 +264,9 @@ h3 {
   width: 90%;
   margin: auto;
 }
-.about-me{
 
-}
+
+
 .descriptions {
   margin-top: 5px;
 }
@@ -291,8 +280,7 @@ h3 {
 
 .hover_image > img {
   width: 100%;
-  height:  323px;
-
+  height: 323px;
 }
 
 .hover_image > a {
@@ -335,7 +323,6 @@ h3 {
   width: 400px;
   height: 250px;
 }
-
 
 .hover_image_food > a {
   display: flex;
@@ -380,9 +367,7 @@ h3 {
   font-family: "Helvetica Neue";
   color: #666;
   font-size: 13px;
-  font-weight: 300; 
-  
-
+  font-weight: 300;
 }
 
 .section-heading {
@@ -392,23 +377,22 @@ h3 {
   margin: 0;
   margin-left: 70px;
 }
-.section-heading-center{
-   font-family: 'Oswald';
-   font-size: 30px;
-   
-   margin-left: 10px;
 
+.section-heading-center {
+  font-family: 'Oswald';
+  font-size: 30px;
+  margin-left: 10px;
 }
-.section-heading-center-recent{
-   font-family: 'Oswald';
-   font-size: 30px;
-   
-   margin-left: 10px;;
 
+.section-heading-center-recent {
+  font-family: 'Oswald';
+  font-size: 30px;
+  margin-left: 10px;
 }
-.section-heading-center-about{
-    font-family: 'Oswald';
-    font-size: 30px;
+
+.section-heading-center-about {
+  font-family: 'Oswald';
+  font-size: 30px;
 }
 
 .section-heading p {
@@ -504,9 +488,9 @@ hr {
 }
 
 .flex {
-    clear: left;
-    padding: 10px;
-    height: 210px;
+  clear: left;
+  padding: 10px;
+  height: 210px;
 }
 
 .recent_image {
@@ -514,16 +498,16 @@ hr {
   height: 200px;
 }
 
-.location{
+.location {
   letter-spacing: 3px;
   position: relative;
   color: #ffffff;
-  top:  160px;
+  top: 160px;
   left: -180px;
 }
 
 .adventures {
-    margin-left: 220px;
+  margin-left: 220px;
 }
 
 .adventures__text {
@@ -535,17 +519,9 @@ hr {
   /* padding: 10px; */
 }
 
-
-
-
-
-
-
-
 .flex_travel {
   display: flex;
 }
-
 
 .flex2 {
   display: flex;
@@ -636,7 +612,7 @@ body {
   font-size: 14px;
   line-height: 1.42857143;
   color: #333;
-/*       max-width: 80%;
+  /*       max-width: 80%;
     margin: 0 auto; */
 }
 
@@ -664,7 +640,6 @@ form {
   padding: 1em;
   border: 1px solid #CCC;
   border-radius: 1em;
-
 }
 
 form div + div {
@@ -679,24 +654,23 @@ label {
   font-family: "oswald";
 }
 
-input, textarea {
+input,textarea {
   /* To make sure that all text fields have the same font settings
      By default, textareas have a monospace font */
   font: 1em sans-serif;
-
   /* To give the same size to all text fields */
   width: 300px;
   box-sizing: border-box;
-
   /* To harmonize the look & feel of text field border */
   border: 1px solid #999;
 }
 
-input:focus, textarea:focus {
+input:focus,textarea:focus {
   /* To give a little highlight on active elements */
   border-color: #000;
 }
-.msg{
+
+.msg {
   font-weight: 200;
   width: 450px;
   font-size: 12px;
@@ -707,29 +681,32 @@ input:focus, textarea:focus {
 textarea {
   /* To properly align multiline text fields with their labels */
   vertical-align: top;
-
   /* To give enough room to type some text */
   height: 5em;
 }
-.outer-form-box{
+
+.outer-form-box {
   padding-left: 40px;
   display: flex;
-    /* justify-content: center; */
-    /* align-items: center; */
+  /* justify-content: center; */
+  /* align-items: center; */
   flex-direction: column;
 }
-.outer-form-box-note{
+
+.outer-form-box-note {
   padding-left: 60px;
   width: 250px;
 }
-.contact-form{
+
+.contact-form {
   display: flex;
 }
 
-.small-text{
+.small-text {
   font-family: "Just Another Hand";
   font-size: 30px;
 }
+
 .outer-form-description {
   font-family: "Helvetica Neue";
   padding-top: 20px;
@@ -740,7 +717,8 @@ textarea {
 
 .button {
   /* To position the buttons to the same position of the text fields */
-  padding-left: 90px; /* same size as the label elements */
+  padding-left: 90px;
+  /* same size as the label elements */
 }
 
 button {
@@ -748,11 +726,13 @@ button {
      between the labels and their text fields */
   margin-left: .5em;
 }
-.submit{
-    width: 90px;
-    margin-top: 20px;
-    text-align: center;
+
+.submit {
+  width: 90px;
+  margin-top: 20px;
+  text-align: center;
 }
+
 @media only screen and (max-width: 40em) {
   body {
     width: 40%;
