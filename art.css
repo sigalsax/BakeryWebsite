@@ -39,30 +39,30 @@
 
 /* .custom-navbar{
   margin-top: 50px;
-} */
+  } */
 
-.custom-navbar > p > a {
-  color: black;
-  transition: color .1s ease;
-  text-decoration: none;
-}
+  .custom-navbar > p > a {
+    color: black;
+    transition: color .1s ease;
+    text-decoration: none;
+  }
 
-.custom-navbar > p > a:hover {
-  /*  text-decoration: none; */
-  color: #474747;
-}
+  .custom-navbar > p > a:hover {
+    /*  text-decoration: none; */
+    color: #474747;
+  }
 
-.box {
-  width: 800px;
-  margin: 0 auto;
-  border-bottom: 1px solid #f0f0f0;
-  border-top: 1px solid #f0f0f0;
-  padding: 30px;
-}
+  .box {
+    width: 800px;
+    margin: 0 auto;
+    border-bottom: 1px solid #f0f0f0;
+    border-top: 1px solid #f0f0f0;
+    padding: 30px;
+  }
 
-.box2 {
-  width: 800px;
-  margin: 0 auto;
+  .box2 {
+    width: 800px;
+    margin: 0 auto;
   /*   border-bottom: 1px solid #f0f0f0;
   border-top: 1px solid #f0f0f0; */
   padding: 30px;
@@ -156,19 +156,6 @@
   color: #b8286f !important;
 }
 
-#iceland,#rome {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  padding: 0 10px;
-}
-
-.box #iceland1 {
-  width: 270px;
-  float: left;
-  padding: 16px;
-}
-
 .numbers {
   margin-left: 50px;
 }
@@ -252,40 +239,43 @@ h3 {
   font-size: 35px;
 }
 
-#adventures {
+/******************************************/
+/*ADVENTURES SECTION*/
+
+.adventures-abroad-header {
   margin-left: 70px;
   font-family: 'Oswald';
   font-size: 30px;
 }
 
-#travel {
+.adventures-abroad-container {
   display: flex;
   flex-direction: row;
   width: 90%;
   margin: auto;
 }
 
-
-
-.descriptions {
-  margin-top: 5px;
+#iceland, #rome {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0 10px;
 }
 
-.hover_image {
+.adventures-abroad-image-container {
   display: flex;
   justify-content: center;
   align-items: center;
   position: relative;
 }
 
-.hover_image > img {
+.adventures-abroad-image-container > img {
   width: 100%;
   height: 323px;
 }
 
-.hover_image > a {
+.adventures-abroad-image-container > a {
   transition: all 0.5s;
-  position: absolute;
   max-width: 50%;
   font-family: 'Oswald';
   letter-spacing: .1em;
@@ -293,14 +283,16 @@ h3 {
   box-shadow: 0 0 5px #fff;
   background-color: white;
   background: rgba(255,255,255,0.9);
-  width: 100%;
-  padding: 2%;
+  padding: 10px;
   text-decoration: none;
   color: #55585a;
   text-align: center;
+  position: absolute;
+  top: 200px;
+  width: 100%;
 }
 
-.hover_image a:hover {
+.adventures-abroad-image-container > a:hover {
   border: 1px solid white;
   box-shadow: 0 0 5px #fff;
   background: rgba(255,255,255,0.8);
@@ -308,6 +300,20 @@ h3 {
   color: #55585a;
   text-decoration: none;
 }
+
+.adventures-abroad-descriptions {
+  margin-top: 5px;
+}
+
+
+/******************************************/
+
+.box {
+  width: 270px;
+  float: left;
+  padding: 16px;
+}
+
 
 .hover_image_food {
   display: flex;
@@ -613,7 +619,7 @@ body {
   line-height: 1.42857143;
   color: #333;
   /*       max-width: 80%;
-    margin: 0 auto; */
+  margin: 0 auto; */
 }
 
 .love {
@@ -656,7 +662,7 @@ label {
 
 input,textarea {
   /* To make sure that all text fields have the same font settings
-     By default, textareas have a monospace font */
+  By default, textareas have a monospace font */
   font: 1em sans-serif;
   /* To give the same size to all text fields */
   width: 300px;
@@ -723,7 +729,7 @@ textarea {
 
 button {
   /* This extra margin represent roughly the same space as the space
-     between the labels and their text fields */
+  between the labels and their text fields */
   margin-left: .5em;
 }
 
@@ -773,86 +779,78 @@ button {
 
     margin-left:60px;
     margin-top: -10px;
-  } */
+    } */
 
-  #travel_flex {
-    display: flex;
-  }
+    #travel_flex {
+      display: flex;
+    }
 
-  .image {
-    display: none;
-  }
+    .image {
+      display: none;
+    }
 
-  .author-box {
-    /*margin-right: 100px;*/
-    margin-left: 5px;
-  }
+    .author-box {
+      /*margin-right: 100px;*/
+      margin-left: 5px;
+    }
 
-  .info {
-    width: 400px;
-  }
+    .info {
+      width: 400px;
+    }
 
-  .infoLocation >a {
-    position: absolute;
-    top: 200px;
-    left: 0;
-    width: 100%;
-    z-index: 100;
-  }
+    .logo img {
+      margin-left: -350px;
+      margin-top: 70px;
+      margin-bottom: -70px;
+    }
 
-  .logo img {
-    margin-left: -350px;
-    margin-top: 70px;
-    margin-bottom: -70px;
-  }
+    .section-heading5 h1 {
+      margin-left: 30px;
+      width: 200%;
+      font-size: 25px !important;
+    }
 
-  .section-heading5 h1 {
-    margin-left: 30px;
-    width: 200%;
-    font-size: 25px !important;
-  }
+    .section-heading4 {
+      font-size: 25px !important;
+      margin-bottom: 10px;
+    }
 
-  .section-heading4 {
-    font-size: 25px !important;
-    margin-bottom: 10px;
-  }
+    .section-heading3 h1 {
+      width: 200%;
+      margin-left: 10px;
+      font-size: 25px !important;
+    }
 
-  .section-heading3 h1 {
-    width: 200%;
-    margin-left: 10px;
-    font-size: 25px !important;
-  }
+    #footer-container {
+      margin-top: 20px;
+      margin-left: -115px;
+      width: 300px;
+    }
 
-  #footer-container {
-    margin-top: 20px;
-    margin-left: -115px;
-    width: 300px;
-  }
+    .footer2 {
+      width: 350px !important;
+    }
 
-  .footer2 {
-    width: 350px !important;
-  }
+    .explanation2 {
+      width: 400%;
+    }
 
-  .explanation2 {
-    width: 400%;
-  }
+    .love {
+      margin-left: 10px;
+      width: 300%;
+    }
 
-  .love {
-    margin-left: 10px;
-    width: 300%;
-  }
+    .love h6 {
+      font-size: 20px;
+    }
 
-  .love h6 {
-    font-size: 20px;
-  }
+    .begin {
+      margin-left: 5px;
+      width: 100%;
+    }
 
-  .begin {
-    margin-left: 5px;
-    width: 100%;
+    .logo img {
+      height: 75px;
+      width: 70px;
+    }
   }
-
-  .logo img {
-    height: 75px;
-    width: 70px;
-  }
-}
