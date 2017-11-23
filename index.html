@@ -50,9 +50,20 @@
 </head>
 
 <body>
-  <div class= "logoart">
-    <img src="images\KosherWanderStyle1.PNG" alt="" class="img-responsive">
-  </div>
+  <div id="clouds">
+    <div class="cloud x1"></div>
+    <!-- Time for multiple clouds to dance around -->
+    <div class="cloud x2"></div>
+    <div class="cloud x3"></div>
+    <div class="cloud x4"></div>
+    <div class="cloud x5"></div>
+    <div class="cloud x6"></div>
+    <div class="cloud x7"></div>
+    <div class= "logoart">
+      <img src="images\wanderer.png" alt="" class="img-responsive">
+    </div>
+
+
 
   <div class="custom-navbar">
     <p class='custom-navbar-p'><a href="index.html#home">HOME</a></p>
@@ -61,6 +72,7 @@
     <p class='custom-navbar-p'><a href="aboutme.html">ABOUT ME</a></p>
     <p class='custom-navbar-p'><a href="index.html#contact">CONTACT</a></p>
   </div>
+</div>
 
   <div class ="social-media">
     <!-- <a href="#" class="fa fa-facebook"></a> -->
@@ -71,9 +83,9 @@
 
 
 
-  <h1 class='adventures-abroad-header'>ADVENTURES (Abroad)</h1>
+  <h1 class='adventures-abroad-header'>REMOTELY KOSHER</h1>
 
-  <div class='adventures-abroad-container'>
+  <div class='adventures-abroad-container' id="travelblog">
 
     <div id='iceland'>
       <div class='adventures-abroad-image-container'>
@@ -101,7 +113,7 @@
     <img src="images/baketressCircl.PNG" class="author-box-image" alt="" align="bottom" >
     <div class="explanation">
       <p>Shalom~ </p><br>
-      <p>I hope you are enjoying the Kosher Wanderer and all the information available for anyone with strict dietary guidelines, aching to travel the world. The whole idea for the blog came about when I was researching and asking my friends, "how do I keep kosher in a desolate place?". A lot of my friends had great suggestions, but I could not find a resource online outlining how to practically get this done. And that is where the Kosher Wanderer was born...<a href ="intro_readmore"><a href="" target="_blank">read more </a> </p>
+      <p>I hope you are enjoying the Kosher Wanderer and all the information available for anyone with strict dietary guidelines, aching to travel the world. The whole idea for the blog came about when I was researching and asking my friends, "how do I keep kosher in a desolate place?". A lot of my friends had great suggestions, but I could not find a resource online outlining how to practically get this done. And that is where the Kosher Wanderer was born...<a href ="intro_readmore"><a href="http://thekosherwanderer.com/aboutme.html" target="_blank">read more </a> </p>
     </div>
   </div>
 <!--
@@ -123,7 +135,8 @@
 
     <div class="adventures">
       <h3 class= "adventures__text">Zak the Baker</h3>
-      <p>Zak the Baker…where do I begin. Zak has been baking for years and my family met him at a local Sunday market. They loved his bread and were hoping he would open shop. And he did!!! This kosher bakery is located in Wynwood Miami, a neighborhood being impacted by a sub-culture of food and fun...<a href ="intro_readmore"><a href="" target="_blank">read more</a></p>
+      <p>Zak the Baker…where do I begin. Zak has been baking for years and my family met him at a local Sunday market. They loved his bread and were hoping he would open shop. And he did!!! This kosher bakery is located in Wynwood Miami, a neighborhood being impacted by a sub-culture of food and fun...
+        <!-- <a href ="intro_readmore"><a href="" target="_blank">read more</a></p> -->
 
     </div>
 
@@ -134,7 +147,8 @@
     <p class="location"> Washington, DC </p>
     <div class="adventures">
       <h3 class="adventures__text"> Guess What I Made! </h3>
-      <p> In an attempt to start a frosting from scratch, I made royal icing for sugar cookies as an experiment. I managed to find kosher meringue powder (Wilton brand) and voila! This stuff hardens quickly, so be sure to work quickly and get any air bubbles out of the frosting before it sets. I would create a thin outline on the cookie using the frosting, let that set for 5 mins... <a href ="intro_readmore"><a href="" target="_blank">read more </a> </p>
+      <p> In an attempt to start a frosting from scratch, I made royal icing for sugar cookies as an experiment. I managed to find kosher meringue powder (Wilton brand) and voila! This stuff hardens quickly, so be sure to work quickly and get any air bubbles out of the frosting before it sets. I would create a thin outline on the cookie using the frosting, let that set for 5 mins... 
+        <!-- <a href ="intro_readmore"><a href="" target="_blank">read more </a> </p> -->
 
       <!-- I would then take a modest heap of the frosting in the center and work your way outwards, touching the edge. I adapted this recipe from one I found previously. The thing about icing is that it needs to be played with so feel free to add more sugar if the mixture is too thin. Trial and error. Check out the recipe <a href="recipe.html#making" target="_blank"> here</a>! </p>-->
     </div>
@@ -145,7 +159,8 @@
     <p class="location">  Miami, FL </p>
     <div class="adventures">
       <h3 class="adventures__text"> Apple Crust Pie </h3>
-      <p> Oh apple pie. Sometimes I can't tell which part I like better…making it, or tasting it. I love experimenting with the different crust designs, but my tried and true favorite design is the traditional lattice design. Recipe is <a href="recipe.html#crust" target="_blank"> here</a>.</p>
+      <p> Oh apple pie. Sometimes I can't tell which part I like better…making it, or tasting it. I love experimenting with the different crust designs, but my tried and true favorite design is the traditional lattice design. </p>
+        <!-- Recipe is <a href="recipe.html#crust" target="_blank"> here</a>.</p> -->
     </div>
   </div>
 </div>
@@ -220,24 +235,31 @@
   </div>
 </div>
 
-<form>
-  <h1 class="section-heading-center"> DROP A LINE </h1>
-  <div class="contact-form">
+<!-- <form>
+  <h1 class="section-heading-center">DROP A LINE </h1>
+  <div class="contact-form" id="contact">
     <div class="outer-form-box">
-    <form action="mailto:ssax18@gmail.com" method="post" enctype="text/plain">
+    <form method="POST" action="http://formspree.io/ssax18@gmail.com">
       <label for="name">NAME:</label><input type="name" name="Name:"><br>
       <label for="email">EMAIL:</label><input type="email" name="Email:"><br>
       <label for="message">MESSAGE:</label><textarea class= "msg" rows="10" col="50"></textarea>
       <button type="submit" class="submit" value="Submit">SUBMIT</button>
     </div>
     <div class="outer-form-box-note">
-      <!-- <h4 class="outer-form-box-note-title"> I want to hear from you!</h4> -->
+      <!-- <h4 class="outer-form-box-note-title"> I want to hear from you!</h4>
       <p class="outer-form-description">Please feel free to reach out to me. I would love to hear from you- beit, questions, stories, or just in need of suggestions. The journey has been tough but it is very possible to be kosher, religious, and travel.</p>
       <br>
       <p class="small-text">Chat soon!</p>
     </div>
   </div>
-</form>
+</form> --> 
+<div class="box contact" id='contact'>
+      <h3 class="intro-heading">Contact</h3>
+      <div class="contact-description">
+        <p class= "explanation">Please feel free to reach out to me. I would love to hear from you- beit, questions, stories, or just in need of suggestions. The journey has been tough but it is very possible to be kosher, religious, and travel!</p>
+        <a class="explanation" href="mailto:ssax18@gmail.com">Get in touch ></a>
+      </div>
+    </div>
 
 <div class="flex2">
   <div class= "footer">
