@@ -1,4 +1,4 @@
-/*full page width*/
+full page width*/
 *{ margin: 0; padding: 0;}
 
 /* body {
@@ -363,6 +363,12 @@
 .author-box .info h6 a {
   color: #b09f23;
 }
+.intro-explanation{
+      color: #666;
+    font-weight: 300;
+    line-height: 24px;
+    margin-left: 30px;
+}
 
 /*for the first row of images*/
 
@@ -553,7 +559,7 @@ h3 {
 }
 
 .hover_image_food >p {
-  width: 80%;
+      width: 310px;
   font-family: "Helvetica Neue";
   color: #666;
   font-size: 13px;
@@ -941,9 +947,136 @@ button {
   margin-top: 20px;
   text-align: center;
 }
+/* @media only screen and (max-width: 500px){
+    .explanation{
+      max-width: 400px;
+    /* margin:  0 auto; */
+  
 
+/* @media only screen and (max-width: 686px){
+  .explanation{
+    max-width: 580px;
+    margin:  0 auto;
+  }
+  .intro-explanation > p{
+    max-width:350px;
+    font-size: 13px;
+
+  } */
+@media only screen and (max-width: 812px){
+    .explanation{
+    max-width: 650px;
+    /* margin:  0 auto; */
+  }
+  .intro-explanation > p{
+    max-width:350px;
+    font-size: 13px;
+
+  }
+
+  @media only screen and (max-width: 688px){
+    .explanation{
+    max-width: 500px;
+    /* margin:  0 auto; */
+  }
+  .adventures-abroad-image-container > img{
+    width: 300px;
+    height: 240px;
+  }
+  .adventures-abroad-descriptions{
+    font-size: 13px;
+  }
+  .adventures-abroad-image-container > a{
+        top: 110px;
+
+  }
+  .intro-explanation > p{
+    max-width: 360px;
+    font-size: 13px;
+  }
+  .custom-navbar{
+      font-size: 15px;
+  }
+  .hover_image_food> img{
+    width: 200px;
+    height: 200px;
+  }
+  .hover_image_food >p{
+    font-size: 10px;
+  }
+/*   .logoart{
+    width: 10px;
+  } */
+  .recipe__box{
+    max-width: 600px;
+
+  }
+  .recipe_image{
+    width: 200px;
+    height: 200px;
+  }
+  .recipe__title{
+    font-size: 23px;
+  }
+  .recipe__info__name{
+        font-size: 23px;
+  }
+  .recipe-subtitle{
+     font-size: 18px;
+  }
+  .recipe__instructions > ol{
+    font-size: 13px; 
+   /* unsure how to make whole div proportionally smaller */
+  }
+  .recipe__info__description p{
+    font-size: 13px; 
+
+  }
+  .recipe__top{
+    max-width: 600px;
+    font-size: 13px;
+  }
+  .recipe__bottom{
+       max-width: 600px;
+    /* font-size: 13px; */
+  }
+   .recipe__feelings > p{
+       max-width: 600px;
+           font-size: 13px;
+
+   }
+   .recipe__info{
+    max-width: 600px;
+    max-width: 400px;
+    font-size: 13px;
+   }
+  /* #iceland{
+    max-width: 50%;
+  }
+  #rome{
+    max-width: 100px;
+
+
+  } */
+
+
+  }
+
+/* unsure how to make whole div proportionally smaller */
+@media only screen and (max-width: 1045px){
+  .hover_image_food{
+        max-width: 320px;
+    /* max-width: 100px; */
+  }
+  @salad{
+    width: 100px;
+  }
+  /* .description{
+    width: 80%;
+  } */
+}
 @media only screen and (max-width: 40em) {
-  body {
+/*   body {
     width: 40%;
   }
 
@@ -959,7 +1092,7 @@ button {
   .primary {
     width: 5em;
     margin-left: 100px;
-  }
+  } */
 
   /*
   .compass1 {
@@ -967,7 +1100,7 @@ button {
   }
   */
 
-  .intro-heading h3 {
+/*   .intro-heading h3 {
     font-size: 25px;
     width: 300%;
     font-family: "Oswald";
@@ -976,7 +1109,7 @@ button {
   .numbers {
     margin-left: 10px;
     width: 300%;
-  }
+  } */
 
   /*  .col-md-4{
 
@@ -984,7 +1117,7 @@ button {
     margin-top: -10px;
     } */
 
-    #travel_flex {
+/*     #travel_flex {
       display: flex;
     }
 
@@ -992,9 +1125,9 @@ button {
       display: none;
     }
 
-    .author-box {
+    .author-box { */
       /*margin-right: 100px;*/
-      margin-left: 5px;
+/*       margin-left: 5px;
     }
 
     .info {
@@ -1057,3 +1190,4 @@ button {
       width: 70px;
     }
   }
+ 
