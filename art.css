@@ -1,4 +1,4 @@
-full page width*/
+ffull page width*/
 *{ margin: 0; padding: 0;}
 
 /* body {
@@ -8,6 +8,7 @@ full page width*/
 
 #clouds{
   /* padding: 100px 0; */
+  width: 100%;
   background: #c9dbe9;
   background: -webkit-linear-gradient(top, #c9dbe9 0%, #fff 100%);
   background: -linear-gradient(top, #c9dbe9 0%, #fff 100%);
@@ -147,17 +148,15 @@ full page width*/
 }
 .logoart {
   text-align: center;
-  margin-top: -300px;
-
+  
   position: relative;
 }
 
-/*centering image*/
-
 .logoart > img {
+  margin-top: -300px;
   /*relative to its parent*/
   margin: 0 auto;
-  width: 400px;
+  max-width: 400px;
   margin-bottom: -10px;
 }
 
@@ -214,7 +213,7 @@ full page width*/
   }
 
   .box2 {
-    width: 800px;
+    max-width: 800px;
     margin: 0 auto;
   /*   border-bottom: 1px solid #f0f0f0;
   border-top: 1px solid #f0f0f0; */
@@ -374,7 +373,7 @@ full page width*/
 
 h3 {
   /* font-family: 'Oswald'!important; */
-  font-size: 25px!important;
+  font-size: 25px;
 }
 
 .box > h3 {
@@ -425,9 +424,10 @@ h3 {
 .adventures-abroad-container {
   display: flex;
   flex-direction: row;
-  justify-content: center;
-  width: 90%;
-  margin: auto;
+  /* justify-content: center; */
+  /* width: 90%; */
+
+  margin: 0 auto;
 }
 
 #iceland, #rome {
@@ -435,7 +435,10 @@ h3 {
   flex-direction: column;
   align-items: center;
   padding: 0 10px;
+  max-width: 420px;
+  margin: 0 auto;
 }
+
 .iceland >img{
   width: 210px;
   float: left;
@@ -479,6 +482,7 @@ h3 {
 .sign{
     font-size: 20px;
     letter-spacing: 2px;
+    margin: 0;
     white-space: 30px;
     /* margin-top: -20px; */
 }
@@ -511,13 +515,13 @@ h3 {
   position: relative;
   justify-content: center;
   align-items: center;
-  width: 30%;
+  max-width: 340px;
   margin: 10px;
 }
 
 .hover_image_food > img {
-  width: 400px;
-  height: 250px;
+    width: 300px;
+    height: 270px;
 }
 
 .hover_image_food > a {
@@ -558,7 +562,7 @@ h3 {
   height: 290px;
 }
 
-.hover_image_food >p {
+.hover_image_food >.descriptions >p {
       width: 310px;
   font-family: "Helvetica Neue";
   color: #666;
@@ -793,17 +797,19 @@ hr {
   max-width: 800px;
   margin: 0 auto;
   text-align: center;
+  display: flex;
+
 }
 
 .footer >h4 {
-  font-size: 11px;
+  font-size: 12px;
   text-align: center;
-  width: 600px;
+  width: 490px;
   font-weight: 400;
 }
 
 .text-muted {
-  margin-left: -270px;
+  /* margin-left: -270px; */
   margin-top: 18px;
   line-height: 19px;
 }
@@ -947,247 +953,352 @@ button {
   margin-top: 20px;
   text-align: center;
 }
-/* @media only screen and (max-width: 500px){
-    .explanation{
-      max-width: 400px;
-    /* margin:  0 auto; */
-  
+  .coarse-logo{
+    width: 200px;
+    height: 60px;
+  }
+@media only screen and (max-width: 1020px){
 
-/* @media only screen and (max-width: 686px){
-  .explanation{
-    max-width: 580px;
-    margin:  0 auto;
+  .top-nav-bar > .logoart > img{
+    width: 340px;
   }
-  .intro-explanation > p{
-    max-width:350px;
-    font-size: 13px;
-
-  } */
-@media only screen and (max-width: 812px){
-    .explanation{
-    max-width: 650px;
-    /* margin:  0 auto; */
+  .top-nav-bar > .custom-navbar > .custom-navbar-p > a{
+    font-size: 15px;
   }
-  .intro-explanation > p{
-    max-width:350px;
-    font-size: 13px;
-
+  #rome {
+    max-width: 400px;
   }
-
-  @media only screen and (max-width: 688px){
-    .explanation{
-    max-width: 500px;
-    /* margin:  0 auto; */
+  #iceland{
+    max-width: 400px;
   }
-  .adventures-abroad-image-container > img{
-    width: 300px;
-    height: 240px;
-  }
-  .adventures-abroad-descriptions{
-    font-size: 13px;
+ 
+  .adventures-abroad-container{
+    /* max-width: 80%; */
   }
   .adventures-abroad-image-container > a{
-        top: 110px;
-
+    top: 70px;
+    font-size: 12px;
+  }
+  .adventures-abroad-image-container > img{
+    max-width: 350px;
+    max-height: 200px; 
+  }
+  .adventures-abroad-descriptions{
+    max-width: 350px;
+    text-align: left;
+    font-size: 12px;
+  }
+  #clouds > .cloud{
+    display: none;
+  }
+  #cloud{
+     /* top: 1000px; */
+  }
+  .top-nav-bar{
+    /* margin-top: 300px; */
+  }
+  .section-heading-center-recent{
+    font-size: 20px;
+  }
+  .adventures-abroad-header{
+     font-size: 20px;
+  }
+  .section-heading{
+     font-size: 20px;
+  }
+  .section-heading-center-about{
+    font-size: 20px;
+  }
+  .recent_adventures img{
+    max-width: 150px;
+    max-height: 150px;
+  }
+  .recent_adventures{
+    max-width: 600px;
   }
   .intro-explanation > p{
-    max-width: 360px;
-    font-size: 13px;
+    font-size: 12px;
+    line-height: 20px;
   }
-  .custom-navbar{
-      font-size: 15px;
+  .intro{
+    max-width: 600px;
   }
-  .hover_image_food> img{
-    width: 200px;
-    height: 200px;
+  .adventures {
+    margin-left: 170px;
   }
-  .hover_image_food >p{
+  .adventures > p{
+    font-size: 12px;
+  }
+  .hover_image_food > img{
+    max-width: 200px;
+    max-height: 200px;
+  }
+  .descriptions {
+    max-width: 250px;
     font-size: 10px;
   }
-/*   .logoart{
-    width: 10px;
-  } */
-  .recipe__box{
-    max-width: 600px;
-
+  .box{
+     max-width: 600px;
   }
-  .recipe_image{
+  .box >.explanation> p{
+    font-size: 12px;
+    line-height: 20px;
+  }
+  .explanation > ul{
+    font-size: 12px;
+    line-height: 20px;
+  }
+  .contact-description > .explanation {
+    font-size: 12px;
+    line-height: 20px;
+  }
+  .coarse-logo{
     width: 200px;
-    height: 200px;
+    height: 60px;
   }
-  .recipe__title{
-    font-size: 23px;
-  }
-  .recipe__info__name{
-        font-size: 23px;
-  }
-  .recipe-subtitle{
-     font-size: 18px;
-  }
-  .recipe__instructions > ol{
-    font-size: 13px; 
-   /* unsure how to make whole div proportionally smaller */
-  }
-  .recipe__info__description p{
-    font-size: 13px; 
-
-  }
-  .recipe__top{
-    max-width: 600px;
-    font-size: 13px;
-  }
-  .recipe__bottom{
-       max-width: 600px;
-    /* font-size: 13px; */
-  }
-   .recipe__feelings > p{
-       max-width: 600px;
-           font-size: 13px;
-
-   }
-   .recipe__info{
-    max-width: 600px;
-    max-width: 400px;
-    font-size: 13px;
-   }
-  /* #iceland{
-    max-width: 50%;
-  }
-  #rome{
-    max-width: 100px;
-
-
-  } */
-
-
-  }
-
-/* unsure how to make whole div proportionally smaller */
-@media only screen and (max-width: 1045px){
-  .hover_image_food{
-        max-width: 320px;
-    /* max-width: 100px; */
-  }
-  @salad{
-    width: 100px;
-  }
-  /* .description{
-    width: 80%;
-  } */
 }
-@media only screen and (max-width: 40em) {
-/*   body {
-    width: 40%;
-  }
 
-  .intro-heading {
-    margin-left: 10%;
-  }
-
-  .section-heading {
-    font-size: 30px;
-    margin-left: 100px;
-  }
-
-  .primary {
-    width: 5em;
-    margin-left: 100px;
-  } */
-
-  /*
-  .compass1 {
-    width: 100% !important;
-  }
-  */
-
-/*   .intro-heading h3 {
-    font-size: 25px;
-    width: 300%;
-    font-family: "Oswald";
-  }
-
-  .numbers {
-    margin-left: 10px;
-    width: 300%;
-  } */
-
-  /*  .col-md-4{
-
-    margin-left:60px;
-    margin-top: -10px;
-    } */
-
-/*     #travel_flex {
-      display: flex;
+  @media only screen and (max-width: 750px){
+    .explanation{
+      max-width: 500px;
+    /* margin:  0 auto; */
     }
-
-    .image {
+    .hover_image_food > .descriptions {
       display: none;
     }
-
-    .author-box { */
-      /*margin-right: 100px;*/
-/*       margin-left: 5px;
+    .adventures-abroad-image-container > img{
+      width: 250px;
+      height: 150px;
     }
+    .adventures-abroad-descriptions{
+      font-size: 10px;
+    }
+    .adventures-abroad-image-container > a{
+        top: 50px;
+    }
+    .intro-explanation > p{
+      max-width: 360px;
+      font-size: 12px;
+      line-height: 20px;
+    }
+    .custom-navbar{
+        font-size: 15px;
+    }
+    .hover_image_food> img{
+      width: 200px;
+      height: 200px;
+    }
+    .hover_image_food >p{
+      font-size: 10px;
+    }
+    .intro > img{
+      width: 100px;
+    }
+    .recipe__box{
+      max-width: 600px;
+    }
+    .adventures__text{
+      font-size: 20px;
+    }
+    .box{
+      max-width: 400px;
+    }
+    .recipe_image{
+      width: 200px;
+      height: 200px;
+    }
+    .recipe__title{
+      font-size: 23px;
+    }
+    .recipe__info__name{
+          font-size: 23px;
+    }
+    .recipe-subtitle{
+       font-size: 18px;
+    }
+    .recipe__instructions > ol{
+      font-size: 13px; 
+     /* unsure how to make whole div proportionally smaller */
+    }
+    .recipe__info__description p{
+      font-size: 13px; 
 
-    .info {
+    }
+    .recipe__top{
+      max-width: 600px;
+      font-size: 13px;
+    }
+    .recipe__bottom{
+         max-width: 600px;
+      /* font-size: 13px; */
+    }
+     .recipe__feelings > p{
+         max-width: 600px;
+             font-size: 13px;
+
+     }
+     .recipe__info{
+      max-width: 600px;
+      max-width: 400px;
+      font-size: 13px;
+     }
+    .footer {
+      display: flex;
+      flex-direction: column;
+
+    }
+    .coarse-logo{
+      width: 150px;
+      height: 50px;
+    }
+    .text-muted {
+      margin-left: 0;
+    }
+    .footer > h4{
       width: 400px;
     }
 
-    .logo img {
-      margin-left: -350px;
-      margin-top: 70px;
-      margin-bottom: -70px;
-    }
-
-    .section-heading5 h1 {
-      margin-left: 30px;
-      width: 200%;
-      font-size: 25px !important;
-    }
-
-    .section-heading4 {
-      font-size: 25px !important;
-      margin-bottom: 10px;
-    }
-
-    .section-heading3 h1 {
-      width: 200%;
-      margin-left: 10px;
-      font-size: 25px !important;
-    }
-
-    #footer-container {
-      margin-top: 20px;
-      margin-left: -115px;
-      width: 300px;
-    }
-
-    .footer2 {
-      width: 350px !important;
-    }
-
-    .explanation2 {
-      width: 400%;
-    }
-
-    .love {
-      margin-left: 10px;
-      width: 300%;
-    }
-
-    .love h6 {
+   }
+@media only screen and (max-width: 535px){
+ .adventures-abroad-descriptions {
+    display: none;
+  }
+   .top-nav-bar > .custom-navbar > .custom-navbar-p > a{
+    font-size: 12px;
+  }
+  .adventures-abroad-container{
+    /* display: flex; */
+    flex-direction: column;
+  }
+  .intro >img {
+    display: none;
+  }
+  .intro-explanation{
+    margin: 0 auto;
+  }
+  #iceland{
+    padding-bottom: 25px;
+  }
+  .recent_image {
+    width: 125px;
+    height: 125px;
+  }
+  .adventures{
+    top: 0;
+  }
+  .footer {
+    display: flex;
+    flex-direction: column;
+  }
+  .coarse-logo{
+    width: 150px;
+    height: 50px;
+  }
+  .footer{
+    text-align: left;
+  }
+  .footer > h4{
+    width: 320px;
+    text-align: left;
+  }
+  .text-muted{
+    margin-left: 0; 
+  }
+  .coarse-logo{
+    width: 150px;
+    height: 50px;
+  }
+}
+@media only screen and (max-width: 500px){
+  .top-nav-bar > .logoart > img{
+      max-width: 200px;
+  }
+   .top-nav-bar > .custom-navbar > .custom-navbar-p > a{
+    font-size: 8px;
+    margin: 0;
+  }
+  .top-nav-bar > .custom-navbar > .custom-navbar-p{
+   margin: 5px;
+  }
+   .adventures__text{
       font-size: 20px;
     }
-
-    .begin {
-      margin-left: 5px;
-      width: 100%;
+    .adventures{
+      max-width: 300px;
     }
-
-    .logo img {
-      height: 75px;
-      width: 70px;
+    .recent_adventures{
+      width: 400px;
     }
-  }
+    .box{
+      max-width: 350px;
+    }
+    .intro{
+      width: 350px;
+    }
+    .adventures-abroad-image-container > a{
+        right: 75px;
+    }
+    .intro-explanation > p{
+      font-size: 10px;
+      width: 280px;
+    }
+    .intro-explanation{
+      max-width: 300px;
+      padding: 0;
+    }
+    .box2{
+      padding-left: 0;
+      padding-right: 0;
+      width: 344px;
+    }
+    .adventures{
+      margin-left:10px;
+
+    }
+    .adventures > p{
+      /* width: 250px; */
+    }
+    .flex{
+      width: 275px;
+      display: flex;
+      flex-direction: column;
+      height: 325px;
+      /* padding-bottom: 50px; */
+      margin-left: 10px;
+
+    }
+    .recent_image{
+      margin: 0;
+    }
+    .recent_adventures {
+      width:  320px;
+    }
+    .recent_adventures img {
+      margin: 0;
+    }
+    .explanation {
+      width: 280px;
+      margin-left: 10px;
+    }
+    .coarse-logo{
+      width: 160px;
+      height: 50px;
+    }
+    .footer {
+      display: flex;
+      flex-direction: column;
+    }
+    .footer > .text-muted{
+      text-align: left;
+      font-size: 9px;
+      width: 200px;
+      margin:  0;
+      margin-left: 0;
+    }
+    .box{
+      max-width: 100%;
+    }
+}
+
+
  
